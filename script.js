@@ -53,5 +53,11 @@ resultsContainer.style.backgroundColor = "yellow";
 //Question 7
 const logName = function(list){
     for(let i=0; i<cats.length; i++)
-        console.log(cats[i.name]);
+        console.log(cats[i].name);
+}
+logName();
+
+//Question 8
+const createCats = function(cats){
+
 }
